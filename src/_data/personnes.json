@@ -1,0 +1,23 @@
+[
+    {
+        "nom": "Dupont",
+        "prenom": "Pierre",
+        "age": "32",
+        "metier": "Boulanger",
+        "ville": "Strasbourg"
+    },
+    {
+        "nom": "Georges",
+        "prenom": "Philippe",
+        "age": "41",
+        "metier": "Libraire",
+        "ville": "Toulouse"
+    },
+    {
+        "nom": "Gilbert",
+        "prenom": "Jeanne",
+        "age": "37",
+        "metier": "Avocate",
+        "ville": "Lille"
+    }
+]

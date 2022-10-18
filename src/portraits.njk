@@ -1,0 +1,30 @@
+---
+pagination:
+    data: personnes
+    size: 1
+    alias: personne
+permalink: "portraits/{{ personne.nom | slug }}/"
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ personne.prenom }} {{ personne.nom }}</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Portrait de {{ personne.prenom }} {{ personne.nom }} !</h1>
+    </header>
+    <main>
+        <ul>
+            <li>Nom : {{ personne.nom }}</li>
+            <li>Prénom : {{ personne.prenom }}</li>
+            <li>Age : {{ personne.age }} ans</li>
+            <li>Métier : {{ personne.metier }}</li>
+            <li>Ville : {{ personne.ville }}</li>
+        </ul>
+    </main>
+</body>
+</html>

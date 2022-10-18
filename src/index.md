@@ -12,3 +12,11 @@ Voici tous les articles :
 - [{{ article.data.title }}]({{ article.url }})
 
 {% endfor %}
+
+Et quelques portraits !
+
+{% for portrait in collections.portraits %}
+
+- [{{ portrait.data.title }}]({{ portrait.url }})
+
+{% endfor %}
